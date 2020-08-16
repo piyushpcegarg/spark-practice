@@ -1,4 +1,4 @@
-package com.piyushpcegarg;
+package com.piyushgarg;
 
 import org.apache.spark.sql.SparkSession;
 
