@@ -1,21 +1,33 @@
-*.class
-*.log
-
-# sbt specific
-.cache/
-.history/
-.lib/
-dist/*
+HELP.md
 target/
-lib_managed/
-src_managed/
-project/boot/
-project/plugins/project/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Scala-IDE specific
-.scala_dependencies
-.worksheet
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# IntelliJ
+### IntelliJ IDEA ###
+.idea
+*.iws
 *.iml
-.idea/
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
